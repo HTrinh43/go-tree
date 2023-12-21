@@ -1,0 +1,54 @@
+--- -hash-workers: 1 -data-workers: 1 -comp-workers: 1 -input: coarse.txt ----
+hashGroupTime: 0.102897
+compareTreeTime: 0.001896
+
+--- -hash-workers: 1 -data-workers: 1 -comp-workers: 1 -input: fine.txt ----
+hashGroupTime: 0.106881
+compareTreeTime: 3.764894
+
+
+--- -hash-workers: 2 -data-workers: 1 -comp-workers: 1 -input: coarse.txt ----
+hashGroupTime: 0.065083
+compareTreeTime: 0.002225
+
+--- -hash-workers: 2 -data-workers: 1 -comp-workers: 1 -input: fine.txt ----
+hashGroupTime: 0.072941
+compareTreeTime: 3.835558
+
+
+--- -hash-workers: 4 -data-workers: 1 -comp-workers: 1 -input: coarse.txt ----
+hashGroupTime: 0.072208
+compareTreeTime: 0.001783
+
+--- -hash-workers: 4 -data-workers: 1 -comp-workers: 1 -input: fine.txt ----
+hashGroupTime: 0.048416
+compareTreeTime: 3.675230
+
+
+--- -hash-workers: 8 -data-workers: 1 -comp-workers: 1 -input: coarse.txt ----
+hashGroupTime: 0.052109
+compareTreeTime: 0.001425
+
+--- -hash-workers: 8 -data-workers: 1 -comp-workers: 1 -input: fine.txt ----
+hashGroupTime: 0.058425
+compareTreeTime: 3.618607
+
+
+--- -hash-workers: 16 -data-workers: 1 -comp-workers: 1 -input: coarse.txt ----
+hashGroupTime: 0.030974
+compareTreeTime: 0.001977
+
+--- -hash-workers: 16 -data-workers: 1 -comp-workers: 1 -input: fine.txt ----
+hashGroupTime: 0.071814
+compareTreeTime: 3.550957
+
+
+--- -hash-workers: 100000 -data-workers: 1 -comp-workers: 1 -input: coarse.txt ----
+hashGroupTime: 0.060844
+compareTreeTime: 0.001206
+
+--- -hash-workers: 100000 -data-workers: 1 -comp-workers: 1 -input: fine.txt ----
+hashGroupTime: 0.065346
+compareTreeTime: 3.555909
+
+

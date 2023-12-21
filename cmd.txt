@@ -1,0 +1,1 @@
+./BST -hash-workers 16 -data-workers 1 -comp-workers 1 -input "input/fine.txt"
